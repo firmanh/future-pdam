@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Admin</title>
+	
+	<meta name="viewport" content="width=1000, initial-scale=1.0, maximum-scale=1.0">
+	<!-- link bootstrap -->
+	<link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+	<!-- link flat ui -->
+	<link href="assets/css/flat-ui.css" rel="stylesheet">
+	<!-- link style.css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<link rel="shortcut icon" href="assets/img/favicon.ico">
+</head>
+<body>
+	
+
+      <div class="row">
+
+        <div class="col-xs-12">
+
+          <nav class="navbar navbar-default navbar-embossed" role="navigation">
+
+            <div class="navbar-header container-fluid">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+                <span class="sr-only">Toggle navigation</span>
+              </button>
+              <a class="navbar-brand" href="#">Flat UI</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-01">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#fakelink">Selamat Datang, Admin</a></li>
+                <li><a href="#"><img class="user-icon" src="assets/img/avatar.png"></a></li>
+               </ul>
+            </div><!-- /.navbar-collapse -->
+          </nav><!-- /navbar -->
+
+        </div><!-- col-xs-12 -->
+		
+			<div class="container">
+			
+      		<div class="col-xs-3">
+      			<div class="menu">
+	      			<h5>Menu</h5>
+	      			 <a href="#form" id="form" class=" btn btn-primary btn-block btn-large">Form</a>
+	      			 <a href="#button" class="button btn btn-primary btn-block btn-large">Button</a>
+	      			 <a href="#tabel" class="tabel btn btn-primary btn-block btn-large">Tabel</a>
+	      		</div>
+			</div><!-- col-xs-3 -->
+			<div class="col-xs-8">
+	      		<div id="form">
+	      			<h5>Form</h5>
+	      			<!-- Input type text -->
+	      			<h6>Input type text : </h6>
+					<input type="text" placeholder="Text" class="form-control" />
+					<!-- End Input type text -->
+				
+					<!-- Input type password -->
+	      			<h6>Input type password : </h6> 
+	      			<input type="password" placeholder="Password" class="form-control" />
+					<!-- End Input type Password -->				
+	
+					<!-- Input type dengan icon -->
+	      			<h6>Input icon : </h6>
+	      			<div class="form-group has-feedback">
+					  <input type="text" value="" placeholder="With icon" class="form-control" />
+					  <span class="form-control-feedback fui-check"></span>
+					</div>
+					<!-- End Input type dengan icon -->
+
+					<!-- Input type File -->
+					<h6>Input File :</h6>
+					<input type="file" placeholder="input file" class="form-control">
+					<!-- End Input type file -->
+
+
+					<!-- Input type Checkbox -->
+					<h6>Checkbox</h6>
+					<!-- Checbox OFF -->
+					<label class="checkbox" for="checkbox1">
+					<input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
+                  		Checkbox
+                	</label>
+                	<!-- End checbox OFF -->
+
+					<!-- Input type checkbox ON -->
+               		<label class="checkbox" for="checkbox2">
+                  	<input type="checkbox" value="" id="checkbox2" checked="checked" data-toggle="checkbox">
+                 		 Checkbox
+                	</label>
+                	<!-- End input checbox ON -->
+				
+					<!-- Input type Radio -->
+					<h6> Radio Button</h6>
+
+					<!-- input radio OFF -->
+                	<label class="radio" for="radio1">
+                  		<input type="radio" name="optionsRadios1" value="" id="radio1" data-toggle="radio">
+                  			Radio button
+                		</label>
+                	<!-- End Radio OFF -->
+
+					<!-- Input radio ON -->
+                	<label class="radio" for="radio2">
+                  		<input type="radio" name="optionsRadios1" value="" id="radio2" data-toggle="radio" checked="checked" >
+                  			Radio button
+                		</label>
+                	<!-- End input radio ON -->
+					
+					<!-- Input Select -->
+					<h3 class="demo-panel-title">Select</h3>
+          			<select class="form-control select select-primary" data-toggle="select">
+          			  <option value="0">Choose hero</option>
+          			  <option value="1">Spider Man</option>
+          			  <option value="2">Wolverine</option>
+          			  <option value="3">Captain America</option>
+          			  <option value="4" selected>X-Men</option>
+          			  <option value="5">Crocodile</option>
+          			</select>
+					<!-- End Input Select -->
+
+	      		</div><!-- form -->
+			
+
+
+				<!-- Button -->
+	      		<div id="button">
+
+	      			<h5>Button</h5>
+
+	      			<!-- Dropdown -->
+	      			<h6>Dropdown</h6>
+	      			 <div class="btn-group">
+            			<button data-toggle="dropdown" class="btn btn-primary dropdown-toggle" type="button">Default <span class="caret"></span></button>
+           					 <ul role="menu" class="dropdown-menu">
+           					   <li><a href="#">Action</a></li>
+           					   <li><a href="#">Another action</a></li>
+           					   <li><a href="#">Something else here</a></li>
+           					   <li class="divider"></li>
+           					   <li><a href="#">Separated link</a></li>
+           					 </ul>
+          			</div><!-- End Dropdown -->
+         				
+	      			<h6>Button</h6>
+
+	      			<!-- Button -->
+	      			<div class="tombol col-xs-4" > 
+          				<a href="#fakelink" class="btn btn-block btn-lg btn-primary">Primary Button</a>
+        			</div>
+					
+
+					<div class="col-xs-4">
+          				<a href="#fakelink" class="btn btn-block btn-lg btn-danger">Danger Button</a>
+       				</div>
+       				<!-- End Button -->
+
+	      		</div><!-- End Class Button -->
+
+
+	      		<div id="tabel">
+
+	      		
+	      			<!-- Tabel 1 -->
+	    			<div class="component">
+	    				<h2>Tabel 1</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>Name</th>
+									<th>Email</th>
+									<th>Phone</th>
+									<th>Mobile</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="user-name">gary coleman</td>
+									<td class="user-email">gary.coleman21@example.com</td>
+									<td class="user-phone">(398)-332-5385</td>
+									<td class="user-mobile">(888)-677-3719</td>
+								</tr>
+								<tr>
+									<td class="user-name">rose parker</td>
+									<td class="user-email">rose.parker16@example.com</td>
+									<td class="user-phone">(293)-873-2247</td>
+									<td class="user-mobile">(216)-889-4933</td>
+								</tr>
+								<tr>
+									<td class="user-name">chloe nelson</td>
+									<td class="user-email">chloe.nelson18@example.com</td>
+									<td class="user-phone">(957)-213-3499</td>
+									<td class="user-mobile">(207)-516-4474</td>
+								</tr>
+								<tr>
+									<td class="user-name">eric bell</td>
+									<td class="user-email">eric.bell16@example.com</td>
+									<td class="user-phone">(897)-762-9782</td>
+									<td class="user-mobile">(565)-627-3002</td>
+								</tr>
+								<tr>
+									<td class="user-name">douglas hayes</td>
+									<td class="user-email">douglas.hayes92@example.com</td>
+									<td class="user-phone">(231)-391-6269</td>
+									<td class="user-mobile">(790)-838-2130</td>
+								</tr>
+								<tr>
+									<td class="user-name">cameron brown</td>
+									<td class="user-email">cameron.brown32@example.com</td>
+									<td class="user-phone">(204)-488-5204</td>
+									<td class="user-mobile">(508)-463-6811</td>
+								</tr>
+								<tr>
+									<td class="user-name">nevaeh diaz</td>
+									<td class="user-email">nevaeh.diaz99@example.com</td>
+									<td class="user-phone">(436)-578-2946</td>
+									<td class="user-mobile">(906)-412-3302</td></tr>
+								<tr>
+									<td class="user-name">kathy miller</td>
+									<td class="user-email">kathy.miller62@example.com</td>
+									<td class="user-phone">(724)-705-3555</td>
+									<td class="user-mobile">(764)-841-2531</td>
+								</tr>
+								<tr><td class="user-name">susan king</td>
+									<td class="user-email">susan.king88@example.com</td>
+									<td class="		user-phone">(774)-205-7754</td>
+									<td class="user-mobile">(639)-267-9728</td>
+								</tr>
+							</tbody>
+						</table><!-- End tabel 1 -->
+					
+					</div><!-- End class tabel 1 -->
+			
+			<div class="tabel 2">
+				<h2>Tabel 2</h2>
+
+				<!-- tabel 2 -->
+				<div class="component">
+
+				<table>
+					<thead>
+						<tr>
+							<th>Sample ID</th>
+							<th>Reading #1</th>
+							<th>Reading #2</th>
+							<th>Reading #3</th>
+							<th>Reading #4</th>
+							<th>Reading #5</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>Sample #1</th>
+							<td>52</td>
+							<td>40</td>
+							<td>9</td>
+							<td>47</td>
+							<td>31</td>
+						</tr>
+						<tr>
+							<th>Sample #2</th>
+							<td>27</td>
+							<td>55</td>
+							<td>97</td>
+							<td>52</td>
+							<td>19</td>
+						</tr>
+						<tr>
+							<th>Sample #3</th>
+							<td>36</td>
+							<td>68</td>
+							<td>89</td>
+							<td>78</td>
+							<td>60</td>
+						</tr>
+						<tr>
+							<th>Sample #4</th>
+							<td>95</td>
+							<td>46</td>
+							<td>62</td>
+							<td>24</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<th>Sample #5</th>
+							<td>19</td>
+							<td>66</td>
+							<td>31</td>
+							<td>99</td>
+							<td>77</td>
+						</tr>
+						<tr>
+							<th>Sample #6</th>
+							<td>57</td>
+							<td>15</td>
+							<td>57</td>
+							<td>9</td>
+							<td>11</td>
+						</tr>
+						<tr>
+							<th>Sample #7</th>
+							<td>69</td>
+							<td>46</td>
+							<td>16</td>
+							<td>33</td>
+							<td>85</td>
+						</tr>
+						<tr>
+							<th>Sample #8</th>
+							<td>18</td>
+							<td>93</td>
+							<td>84</td>
+							<td>57</td>
+							<td>35</td>
+						</tr>
+						<tr>
+							<th>Sample #9</th>
+							<td>92</td>
+							<td>10</td>
+							<td>69</td>
+							<td>35</td>
+							<td>0</td>
+						</tr>
+						<tr>
+							<th>Sample #10</th>
+							<td>4</td>
+							<td>87</td>
+							<td>51</td>
+							<td>22</td>
+							<td>19</td>
+						</tr>
+						<tr>
+							<th>Sample #11</th>
+							<td>24</td>
+							<td>23</td>
+							<td>85</td>
+							<td>34</td>
+							<td>83</td>
+						</tr>
+						<tr>
+							<th>Sample #12</th>
+							<td>92</td>
+							<td>6</td>
+							<td>67</td>
+							<td>65</td>
+							<td>12</td>
+						</tr>
+						<tr>
+							<th>Sample #13</th>
+							<td>10</td>
+							<td>77</td>
+							<td>64</td>
+							<td>51</td>
+							<td>63</td>
+						</tr>
+						<tr>
+							<th>Sample #14</th>
+							<td>65</td>
+							<td>85</td>
+							<td>42</td>
+							<td>90</td>
+							<td>94</td>
+						</tr>
+						<tr>
+							<th>Sample #15</th>
+							<td>34</td>
+							<td>48</td>
+							<td>38</td>
+							<td>6</td>
+							<td>21</td>
+						</tr>
+						<tr>
+							<th>Sample #16</th>
+							<td>26</td>
+							<td>72</td>
+							<td>47</td>
+							<td>27</td>
+							<td>43</td>
+						</tr>
+						<tr>
+							<th>Sample #17</th>
+							<td>79</td>
+							<td>86</td>
+							<td>85</td>
+							<td>10</td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<th>Sample #18</th>
+							<td>39</td>
+							<td>68</td>
+							<td>91</td>
+							<td>71</td>
+							<td>74</td>
+						</tr>
+					
+					</tbody>
+				</table><!-- End tabel 2 -->
+			</div><!-- End class tabel 2 -->
+			
+	      		
+
+        	</div><!-- col-xs-8 -->
+		</div><!-- container -->
+      </div> <!-- /row -->
+
+
+<script>
+$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+</script>
+<!-- link js -->
+<script src="assets/js/vendor/jquery.min.js"></script>
+<script src="assets/js/tabel.js"></script>
+<script src="assets/js/jquery.stickyheader.js"></script>
+<script src="assets/js/flat-ui.min.js"></script>
+<script src="assets/js/application.js"></script>
+
+</body>
+</html>

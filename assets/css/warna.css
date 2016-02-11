@@ -1,0 +1,29 @@
+/*----- warna  ---*/
+.form-control:focus {
+    border-color: #3498DB;
+}
+
+.checkbox input[type="checkbox"].custom-checkbox:checked + .icons .icon-checked,
+.radio input[type="checkbox"].custom-checkbox:checked + .icons .icon-checked,
+.checkbox input[type="radio"].custom-radio:checked + .icons .icon-checked,
+.radio input[type="radio"].custom-radio:checked + .icons .icon-checked {
+    color: #3498DB;
+}
+
+.select-primary .select2-choice {
+    background-color: #3498DB;
+}
+
+.select-primary .select2-choice:hover,
+.select-primary .select2-choice.hover,
+.select-primary .select2-choice:focus,
+.select-primary .select2-choice:active {
+    background-color: #17689E;
+}
+.btn-primary {
+    background-color: #3498DB;
+}
+
+.btn-primary:hover {
+    background-color: #17689E;
+}

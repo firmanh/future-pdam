@@ -21,10 +21,11 @@ body {
     margin-left:-20px;
 }
 .navbar-default .navbar-nav > li > a{
-	color:#3498DB;
+	color:#fff;
 }
 .navbar-default{
-	background-color:#fff;
+	background-color:#3498DB;
+	-webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px !important;
 }
 .navbar-embossed > .navbar-collapse{
 	border-bottom:0px solid #dcdcdc;
